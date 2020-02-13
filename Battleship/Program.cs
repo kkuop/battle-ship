@@ -12,6 +12,7 @@ namespace Battleship
         {
             Game game = new Game();
             game.NewGame();
+            Console.ReadKey();
         }
     }
 }

@@ -8,16 +8,22 @@ namespace Battleship
 {
     class Game
     {
+        Board board;
+
         public void NewGame()
         {
-            //Place Ships
-            //Run Game
-            //Determine Winner
+            GenerateBoard();
+            PlaceShips();
+            RunGame();
+            DetermineWinner();
         }
-
+        private void GenerateBoard()
+        {
+            board = new Board();
+        }
         private void PlaceShips()
         {
-
+            
         }
 
         private void RunGame()
